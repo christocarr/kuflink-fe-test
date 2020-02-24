@@ -1,0 +1,18 @@
+@font-face {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+$card-font: Helvetica;
+$card-border-color: lightgrey;
+$card-border-radius: 0.3rem;
+
+.card {
+  width: 200px;
+  font-family: $card-font;
+  border: 1px solid $card-border-color;
+  border-radius: $card-border-radius;
+  .card
+  .card-header, .card-footer {
+    padding: 1rem;
+  }
+}

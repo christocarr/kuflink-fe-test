@@ -1,0 +1,14 @@
+@font-face {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.card {
+  width: 200px;
+  font-family: Helvetica;
+  border: 1px solid lightgrey;
+  border-radius: 0.3rem;
+}
+.card .card .card-header, .card .card-footer {
+  padding: 1rem;
+}
+
+/*# sourceMappingURL=main.css.map */
