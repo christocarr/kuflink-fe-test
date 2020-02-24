@@ -4,7 +4,16 @@
   border: 1px solid lightgrey;
   border-radius: 0.3rem;
 }
-.card .card .card-header, .card .card-footer {
+.card .logo {
+  width: 100px;
+}
+.card .logo img {
+  width: 100%;
+}
+.card .card-image {
+  width: 100%;
+}
+.card .card-header, .card .card-footer {
   padding: 1rem;
 }
 

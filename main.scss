@@ -8,7 +8,15 @@ $card-border-radius: 0.3rem;
   font-family: $card-font;
   border: 1px solid $card-border-color;
   border-radius: $card-border-radius;
-  .card
+  .logo {
+    width: 100px;
+    img {
+      width: 100%;
+    }
+  }
+  .card-image {
+    width: 100%;
+  }
   .card-header, .card-footer {
     padding: 1rem;
   }
