@@ -1,11 +1,12 @@
 
-$card-font: Helvetica;
+$card-font: "nunito sans";
 $card-border-color: lightgrey;
 $card-border-radius: 0.3rem;
 
 .card {
   width: 200px;
   font-family: $card-font;
+  font-weight: lighter;
   border: 1px solid $card-border-color;
   border-radius: $card-border-radius;
   .logo {
