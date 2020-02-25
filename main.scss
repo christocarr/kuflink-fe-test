@@ -65,9 +65,9 @@ $desktop: 1024px;
     .icon-container {
       display: flex;
       align-items: center;
+      justify-content: center;
       width: 30%;
       img {
-        justify-self: end;
         width: 20%;
       }
     }

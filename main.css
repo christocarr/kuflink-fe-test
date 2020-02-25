@@ -59,10 +59,10 @@ h2, p {
 .card .card-footer .icon-container {
   display: flex;
   align-items: center;
+  justify-content: center;
   width: 30%;
 }
 .card .card-footer .icon-container img {
-  justify-self: end;
   width: 20%;
 }
 @media screen and (min-width: 760px) {
