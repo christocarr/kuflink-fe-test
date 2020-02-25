@@ -42,6 +42,15 @@ h2, p {
     font-size: 14px;
     width: 33%;
   }
+  .card .card-header .logo {
+    margin-right: 1rem;
+  }
+  .card .card-header h2 {
+    padding-bottom: 0.2rem;
+  }
+  .card .card-header p {
+    padding-top: 0.1rem;
+  }
   .card .card-header, .card .card-footer {
     padding: 1rem;
   }

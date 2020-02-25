@@ -47,6 +47,13 @@ $desktop: 1024px;
   @media (min-width: $tablet) {
     font-size: 14px;
     width: 33%;
+    .card-header {
+      .logo {
+        margin-right: 1rem;
+      }
+      h2 { padding-bottom: 0.2rem;}
+      p {padding-top: 0.1rem;}
+    }
     .card-header, .card-footer {
       padding: 1rem;
     }
