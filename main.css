@@ -37,6 +37,16 @@ h2, p {
   display: flex;
   padding: 0.5rem;
 }
+.card .card-footer button {
+  color: white;
+  width: 75px;
+  border-radius: 25px;
+  border: white solid 1px;
+  background-color: transparent;
+}
+.card .card-footer button:hover {
+  cursor: pointer;
+}
 @media (min-width: 760px) {
   .card {
     font-size: 14px;

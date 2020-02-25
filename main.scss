@@ -43,7 +43,18 @@ $desktop: 1024px;
   .card-footer {
     display: flex;
     padding: 0.5rem;
+    button {
+      color: white;
+      width: 75px;
+      border-radius: 25px;
+      border: white solid 1px;
+      background-color: transparent;
+      &:hover {
+        cursor: pointer;
+      }
+    }
   }
+
   @media (min-width: $tablet) {
     font-size: 14px;
     width: 33%;
