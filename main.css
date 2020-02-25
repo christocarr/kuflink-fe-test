@@ -4,7 +4,7 @@ h2, p {
 
 .card {
   font-size: 12px;
-  width: 200px;
+  width: 90%;
   font-family: "nunito sans", Arial, Helvetica, sans-serif;
   font-weight: lighter;
   border: 1px solid lightgrey;
@@ -35,19 +35,37 @@ h2, p {
 }
 .card .card-footer {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
   padding: 0.5rem;
 }
-.card .card-footer button {
+.card .card-footer .button-container {
+  width: 70%;
+}
+.card .card-footer .button-container button {
   color: white;
-  width: 75px;
-  border-radius: 25px;
+  width: 40%;
+  border-radius: 10px;
   border: white solid 1px;
   background-color: transparent;
 }
-.card .card-footer button:hover {
+.card .card-footer .button-container button:hover {
   cursor: pointer;
 }
-@media (min-width: 760px) {
+.card .card-footer .button-container .register-button {
+  background-color: #ff487e;
+  border: none;
+}
+.card .card-footer .icon-container {
+  display: flex;
+  align-items: center;
+  width: 30%;
+}
+.card .card-footer .icon-container img {
+  justify-self: end;
+  width: 20%;
+}
+@media screen and (min-width: 760px) {
   .card {
     font-size: 14px;
     width: 33%;
