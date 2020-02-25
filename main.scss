@@ -1,7 +1,15 @@
+//reset
+h2, p {
+  margin: 0;
+}
 
+// variables
 $card-font: "nunito sans", Arial, Helvetica, sans-serif;
 $card-border-color: lightgrey;
 $card-border-radius: 0.3rem;
+
+$tablet: 760px;
+$desktop: 1024px;
 
 .card {
   width: 200px;
@@ -9,15 +17,13 @@ $card-border-radius: 0.3rem;
   font-weight: lighter;
   border: 1px solid $card-border-color;
   border-radius: $card-border-radius;
+  @media (min-width: $tablet) {
+    width: 33%;
+  }
   .logo {
     width: 100px;
     img {
       width: 100%;
-    }
-  }
-  .card-header {
-    h2 p {
-      margin: 0;
     }
   }
   .card-image {

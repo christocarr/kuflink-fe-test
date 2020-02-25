@@ -1,9 +1,18 @@
+h2, p {
+  margin: 0;
+}
+
 .card {
   width: 200px;
   font-family: "nunito sans", Arial, Helvetica, sans-serif;
   font-weight: lighter;
   border: 1px solid lightgrey;
   border-radius: 0.3rem;
+}
+@media (min-width: 760px) {
+  .card {
+    width: 33%;
+  }
 }
 .card .logo {
   width: 100px;
