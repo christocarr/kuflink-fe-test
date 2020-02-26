@@ -2,89 +2,93 @@ h2, p {
   margin: 0;
 }
 
-.card {
+article {
+  min-width: 90%;
+}
+article .card {
+  display: inline-block;
   font-size: 12px;
-  width: 90%;
+  min-width: 200px;
   font-family: "nunito sans", Arial, Helvetica, sans-serif;
   font-weight: lighter;
   border: 1px solid lightgrey;
   border-radius: 0.3rem;
   background-image: linear-gradient(61deg, #0045ff 2%, #01d2a3 80%);
 }
-.card header {
+article .card header {
   display: flex;
   color: white;
   padding: 0.5rem;
 }
-.card header .logo {
+article .card header .logo {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 20%;
   margin-right: 0.5rem;
 }
-.card header .logo img {
+article .card header .logo img {
   width: 100%;
 }
-.card .card-image {
+article .card .card-image {
   width: 100%;
 }
-.card .description {
+article .card .description {
   color: white;
   padding: 0 0.5rem 0 0.5rem;
 }
-.card footer {
+article .card footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0.5rem;
 }
-.card footer .button-container {
+article .card footer .button-container {
   width: 70%;
 }
-.card footer .button-container button {
+article .card footer .button-container button {
   color: white;
   width: 40%;
   border-radius: 10px;
   border: white solid 1px;
   background-color: transparent;
 }
-.card footer .button-container button:hover {
+article .card footer .button-container button:hover {
   cursor: pointer;
 }
-.card footer .button-container .register-button {
+article .card footer .button-container .register-button {
   background-color: #ff487e;
   border: none;
 }
-.card footer .icon-container {
+article .card footer .icon-container {
   color: white;
   display: flex;
   align-items: center;
   justify-content: flex-end;
   width: 30%;
 }
-.card footer .icon-container img {
+article .card footer .icon-container img {
   color: white;
   width: 20%;
 }
 @media screen and (min-width: 760px) {
-  .card {
+  article .card {
     font-size: 14px;
     width: 33%;
   }
-  .card header .logo {
+  article .card header .logo {
     margin-right: 1rem;
   }
-  .card header h2 {
+  article .card header h2 {
     padding-bottom: 0.2rem;
   }
-  .card header p {
+  article .card header p {
     padding-top: 0.1rem;
   }
-  .card header, .card footer {
+  article .card header, article .card footer {
     padding: 1rem;
   }
-  .card .description {
+  article .card .description {
     padding: 0.5rem 1rem 0 1rem;
   }
 }

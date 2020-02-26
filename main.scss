@@ -10,86 +10,91 @@ $card-border-radius: 0.3rem;
 $tablet: 760px;
 $desktop: 1024px;
 
-.card {
-  font-size: 12px;
-  width: 90%;
-  font-family: $card-font;
-  font-weight: lighter;
-  border: 1px solid $card-border-color;
-  border-radius: $card-border-radius;
-  background-image: linear-gradient(61deg,#0045ff 2%,#01d2a3 80%);
-  header {
-    display: flex;
-    color: white;
-    padding: 0.5rem;
-    .logo {
+article {
+  min-width: 90%;
+  .card {
+    display: inline-block;
+    font-size: 12px;
+    min-width: 200px;
+    font-family: $card-font;
+    font-weight: lighter;
+    border: 1px solid $card-border-color;
+    border-radius: $card-border-radius;
+    background-image: linear-gradient(61deg,#0045ff 2%,#01d2a3 80%);
+    header {
       display: flex;
-      justify-content: center;
-      align-items: center;
-      width: 20%;
-      margin-right: 0.5rem;
-      img {
-        width: 100%;
-      }
-    }
-  }
-  .card-image {
-    width: 100%;
-  }
-  .description {
-    color: white;
-    padding: 0 0.5rem 0 0.5rem
-  }
-  footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0.5rem;
-    .button-container {
-      width: 70%;
-      button {
-        color: white;
-        width: 40%;
-        border-radius: 10px;
-        border: white solid 1px;
-        background-color: transparent;
-        &:hover {
-          cursor: pointer;
+      color: white;
+      padding: 0.5rem;
+      .logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 20%;
+        margin-right: 0.5rem;
+        img {
+          width: 100%;
         }
       }
-      .register-button {
-        background-color:#ff487e;
-        border: none;
-      }
     }
-    .icon-container {
-      color: white;
-      display: flex;
-      align-items: center;
-      justify-content: flex-end;
-      width: 30%;
-      img {
-        color: white;
-        width: 20%;
-      }
-    }
-  }
-
-  @media screen and (min-width: $tablet) {
-    font-size: 14px;
-     width: 33%;
-    header {
-      .logo {
-        margin-right: 1rem;
-      }
-      h2 { padding-bottom: 0.2rem;}
-      p {padding-top: 0.1rem;}
-    }
-    header, footer {
-      padding: 1rem;
+    .card-image {
+      width: 100%;
     }
     .description {
-      padding: 0.5rem 1rem 0 1rem;
+      color: white;
+      padding: 0 0.5rem 0 0.5rem
+    }
+    footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0.5rem;
+      .button-container {
+        width: 70%;
+        button {
+          color: white;
+          width: 40%;
+          border-radius: 10px;
+          border: white solid 1px;
+          background-color: transparent;
+          &:hover {
+            cursor: pointer;
+          }
+        }
+        .register-button {
+          background-color:#ff487e;
+          border: none;
+        }
+      }
+      .icon-container {
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        width: 30%;
+        img {
+          color: white;
+          width: 20%;
+        }
+      }
+    }
+  
+    @media screen and (min-width: $tablet) {
+      font-size: 14px;
+       width: 33%;
+      header {
+        .logo {
+          margin-right: 1rem;
+        }
+        h2 { padding-bottom: 0.2rem;}
+        p {padding-top: 0.1rem;}
+      }
+      header, footer {
+        padding: 1rem;
+      }
+      .description {
+        padding: 0.5rem 1rem 0 1rem;
+      }
     }
   }
 }
+
