@@ -57,12 +57,14 @@ h2, p {
   border: none;
 }
 .card footer .icon-container {
+  color: white;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-end;
   width: 30%;
 }
 .card footer .icon-container img {
+  color: white;
   width: 20%;
 }
 @media screen and (min-width: 760px) {

@@ -63,11 +63,13 @@ $desktop: 1024px;
       }
     }
     .icon-container {
+      color: white;
       display: flex;
       align-items: center;
-      justify-content: center;
+      justify-content: flex-end;
       width: 30%;
       img {
+        color: white;
         width: 20%;
       }
     }
