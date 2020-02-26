@@ -36,7 +36,7 @@ article .card .card-image {
   width: 100%;
 }
 article .card .description {
-  color: white;
+  color: #3b3b3b;
   padding: 0 0.5rem 0 0.5rem;
 }
 article .card footer {
@@ -49,16 +49,17 @@ article .card footer .button-container {
   width: 70%;
 }
 article .card footer .button-container button {
-  color: white;
+  color: #3b3b3b;
   width: 40%;
   border-radius: 10px;
-  border: white solid 1px;
+  border: #3b3b3b solid 1px;
   background-color: transparent;
 }
 article .card footer .button-container button:hover {
   cursor: pointer;
 }
 article .card footer .button-container .register-button {
+  color: white;
   background-color: #ff487e;
   border: none;
 }

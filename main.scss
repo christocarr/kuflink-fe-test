@@ -5,6 +5,7 @@ h2, p {
 
 // variables
 $card-font: "nunito sans", Arial, Helvetica, sans-serif;
+$secondary-font-color: #3b3b3b;
 $card-border-color: lightgrey;
 $card-border-radius: 0.3rem;
 $tablet: 760px;
@@ -42,7 +43,7 @@ article {
       width: 100%;
     }
     .description {
-      color: white;
+      color: $secondary-font-color;
       padding: 0 0.5rem 0 0.5rem
     }
     footer {
@@ -53,16 +54,17 @@ article {
       .button-container {
         width: 70%;
         button {
-          color: white;
+          color: $secondary-font-color;
           width: 40%;
           border-radius: 10px;
-          border: white solid 1px;
+          border: $secondary-font-color solid 1px;
           background-color: transparent;
           &:hover {
             cursor: pointer;
           }
         }
         .register-button {
+          color: white;
           background-color:#ff487e;
           border: none;
         }
