@@ -24,7 +24,7 @@ article {
     header {
       display: flex;
       color: white;
-      padding: 0.5rem;
+      padding: 1rem;
       border-top-left-radius: $card-border-radius;
       border-top-right-radius: $card-border-radius;
       background-image: linear-gradient(61deg,#0045ff 2%,#01d2a3 80%);
@@ -44,13 +44,13 @@ article {
     }
     .description {
       color: $secondary-font-color;
-      padding: 0 0.5rem 0 0.5rem
+      padding: 0 1rem 0 1rem
     }
     footer {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      padding: 0.5rem;
+      padding: 1rem;
       .button-container {
         width: 70%;
         button {
@@ -91,12 +91,6 @@ article {
         }
         h2 { padding-bottom: 0.2rem;}
         p {padding-top: 0.1rem;}
-      }
-      header, footer {
-        padding: 1rem;
-      }
-      .description {
-        padding: 0.5rem 1rem 0 1rem;
       }
     }
   }
