@@ -20,11 +20,13 @@ article {
     font-weight: lighter;
     border: 1px solid $card-border-color;
     border-radius: $card-border-radius;
-    background-image: linear-gradient(61deg,#0045ff 2%,#01d2a3 80%);
     header {
       display: flex;
       color: white;
       padding: 0.5rem;
+      border-top-left-radius: $card-border-radius;
+      border-top-right-radius: $card-border-radius;
+      background-image: linear-gradient(61deg,#0045ff 2%,#01d2a3 80%);
       .logo {
         display: flex;
         justify-content: center;
