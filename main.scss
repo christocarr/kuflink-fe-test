@@ -72,6 +72,10 @@ article {
           background-color:#ff487e;
           border: none;
         }
+        // disable button
+        .disableButton {
+          display: none;
+        }
       }
       .icon-container {
         color: white;
